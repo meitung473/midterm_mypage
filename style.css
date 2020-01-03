@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+  background-color: #3498db;
+  color: white;
+  font-family: "微軟正黑體";
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+hr {
+  border: 2px solid white;
+  background-color: white;
+  width: 100%;
+  margin-left: 0px;
+}
+
+a {
+  color: white;
+}
+
+.myfile {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  padding-top: 80px;
+}
+.myfile hr {
+  background-color: white;
+}
+
+section {
+  margin-top: 120px;
+}
+
+.allinfo {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.bar {
+  width: 50%;
+  height: 20px;
+  border: solid 3px #29f1c3;
+  border-radius: 8px;
+}
+
+.value {
+  height: 100%;
+  background-color: #87d37c;
+  border-radius: 8px;
+}
+
+.value.a80 {
+  width: 80%;
+}
+
+.value.a70 {
+  width: 70%;
+}
+
+.value.a50 {
+  width: 60%;
+}
+
+.intro {
+  padding-top: 20px;
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.allinfo span {
+  font-size: 18pt;
+  color: black;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 12pt;
+}
+
+.card-title {
+  font-size: 20pt;
+  color: black;
+  font-weight: bold;
+}
+
+.design, .video {
+  font-size: 18pt;
+  color: black;
+  margin-top: 8px;
+}
+
+footer {
+  text-align: center;
+}
+
+.card1 {
+  text-align: center;
+}
+
+.card1:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid yellow;
+  border-radius: 30px;
+}
+.card1:hover h6 {
+  color: yellow;
+  transition: 0.5s;
+}
